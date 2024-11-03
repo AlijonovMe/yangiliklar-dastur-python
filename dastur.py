@@ -1,6 +1,5 @@
 import json
 
-
 def save_news(data, name, content, i):
     data.append(
         {"id": i + 1, "name": name, "content": content, "views": 0, "likes": 0, "dislikes": 0}
